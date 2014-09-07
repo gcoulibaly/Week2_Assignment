@@ -50,15 +50,6 @@ Week2_Assignment
 
 Question5
 #checking the pythagorean theorem
-> pythagore<-function(a,b,c){
-+ d<-a^2 +b^2
-+ k<-b^2 + a^2
-+ if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle"
-Error: unexpected string constant in:
-"k<-
-if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle""
-> if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle")
-Error: unexpected string constant in "if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle""
 > #checking the pythagorean theorem
 > pythagore<-function(a,b,c){
 + d<-a^2 +b^2
