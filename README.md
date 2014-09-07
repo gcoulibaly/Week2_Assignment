@@ -48,4 +48,29 @@ Week2_Assignment
 > sum(B)                                             #counting the number of integers that are not divisible by 3, 7, and 11
 [1] 520
 
-
+Question5
+#checking the pythagorean theorem
+> pythagore<-function(a,b,c){
++ d<-a^2 +b^2
++ k<-b^2 + a^2
++ if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle"
+Error: unexpected string constant in:
+"k<-
+if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle""
+> if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle")
+Error: unexpected string constant in "if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print"Yes, it is a right triangle""
+> #checking the pythagorean theorem
+> pythagore<-function(a,b,c){
++ d<-a^2 +b^2
++ k<-b^2 + a^2
++ if ((d==c*c)&&(k==c*c)&&(c*c==d)&&(c*c==k)) print("Yes, it is a right triangle")
++ else print("No, it is not a right triangle")
++ }
+> f(3,4,5)
+Error: could not find function "f"
+> pythagore(3,4,5)
+[1] "Yes, it is a right triangle"
+> pythagore(4,3,5)
+[1] "Yes, it is a right triangle"
+> pythagore(4,5,3)
+[1] "No, it is not a right triangle
