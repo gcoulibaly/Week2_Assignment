@@ -1,4 +1,4 @@
-Week2_Assignment
+Week2_Assignment_IS607
 ================
 #Question1. Five customers in a line
 
