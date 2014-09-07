@@ -7,3 +7,17 @@ Question#4 Finding numbers that are not divisible by any 3, 7, and 11
 > sum(B)         #counting the number of integers that are not divisible by 3, 7, and 11
 [1] 520
 
+Question#1-a) create a vector with 5 names
+> queue<-c("James", "Mary", "Steve", "Alex", "Paticia")
+> queue
+[1] "James"   "Mary"    "Steve"   "Alex"    "Paticia"
+
+>Question# 1-b)  adding new name
+> queue<-append(queue, "Harold",5)
+> queue
+[1] "James"   "Mary"    "Steve"   "Alex"    "Paticia" "Harold" 
+
+Question#1-c) Removing the first element in a list
+> queue[-1]
+[1] "Mary"    "Steve"   "Alex"    "Paticia" "Harold" 
+> 
